@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="filho1">
+            <div class="box">Box1</div>
+            <div class="box">Box2</div>
+            <div class="box">Box3</div>
+        </div>
+        <div class="filho2">Filho2</div>
+    </div>
+
+    <style>
+        .container{
+            height: 100vh;
+            width: 100%;
+
+            gap: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background-color: black;
+        }
+        .filho1{
+            height: 50vh;
+            width: 30%;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            background-color: blue;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: red;
+        }
+
+
+
+        .filho2{
+            width: 30%;
+            height: 50vh;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            background-color: yellow;   
+        }
+    </style>
+</body>
+</html>
